@@ -3,26 +3,8 @@
 @tailwind utilities;
 
 .container {
-	--max-width: 343px;
+	--max-width: 1110px;
 	--padding: 1.5rem;
 	width: min(var(--max-width), 100% - var(--padding) * 2);
 	margin-inline: auto;
-}
-
-@media (min-width: 767px) {
-	.container {
-		--max-width: 690px;
-		--padding: 16px;
-		width: min(var(--max-width), 100% - var(--padding) * 2);
-		margin-inline: auto;
-	}
-}
-
-@media (min-width: 1439px) {
-	.container {
-		--max-width: 1110px;
-		--padding: 16px;
-		width: min(var(--max-width), 100% - var(--padding) * 2);
-		margin-inline: auto;
-	}
 }
