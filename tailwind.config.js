@@ -6,6 +6,7 @@ module.exports = {
       'body': ['Plus Jakarta Sans']
     },
     fontSize: {
+      xs: ['14px', '28px'],
       sm: ['32px', '40px'],
       md: ['40px', '51px'],
       lg: ['56px', '70px'],
