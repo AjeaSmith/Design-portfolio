@@ -818,3 +818,21 @@ video {
     line-height: 70px;
   }
 }
+
+@media (min-width: 1280px) {
+  .xl\:col-start-5 {
+    grid-column-start: 5;
+  }
+
+  .xl\:row-start-1 {
+    grid-row-start: 1;
+  }
+
+  .xl\:grid-cols-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .xl\:grid-cols-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
