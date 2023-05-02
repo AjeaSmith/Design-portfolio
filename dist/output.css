@@ -688,6 +688,10 @@ video {
   overflow: hidden;
 }
 
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
 .scroll-smooth {
   scroll-behavior: smooth;
 }
