@@ -61,10 +61,7 @@
 						class="grid grid-cols-2 gap-6 text-cream md:grid-cols-4 xl:grid-cols-6"
 					>
 						<div
-							class="flex flex-col justify-between bg-purple rounded-lg p-4 col-span-2 
-							md:col-start-1
-							md:col-end-3 
-							md:row-start-1 md:row-end-3 lg:p-6"
+							class="flex flex-col justify-between bg-purple rounded-lg p-4 col-span-2 md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-3 lg:p-6"
 						>
 							<img
 								class="place-self-end"
@@ -105,7 +102,7 @@
 							class="flex flex-col justify-between col-span-2 bg-darkOrange rounded-lg p-4 md:col-start-3 md:col-end-5 lg:p-6"
 						>
 							<img
-								class="place-self-end "
+								class="place-self-end"
 								src="./assets/pattern-illustrations.svg"
 								alt=""
 							/>
@@ -144,22 +141,38 @@
 			</section>
 			<!-- END OF SECTION 2 -->
 
-			<section class="mb-[120px] lg:mb-[88px]">
+			<section class="mb-[100px] lg:mb-[88px]">
 				<div class="container">
-					<div class="grid grid-rows-2 mx-auto md:grid-cols-2 md:gap-7 md:grid-rows-1 lg:gap-20">
-						<img class="md:mb-0" src="./assets/image-amy.webp" alt="amy" />
-						<div class="flex flex-col text-center justify-center md:text-left md:items-start">
-							<h1 class="text-black text-[1.625rem] font-bold leading-8 md:text-sm lg:text-md">
+					<div
+						class="grid grid-rows-2 mx-auto md:grid-cols-2 md:gap-7 md:grid-rows-1 lg:gap-20"
+					>
+						<img
+							class="md:mb-0"
+							src="./assets/image-amy.webp"
+							alt="amy"
+						/>
+						<div
+							class="flex flex-col text-center justify-center md:text-left md:items-start"
+						>
+							<h1
+								class="text-black text-[1.625rem] font-bold leading-8 md:text-sm lg:text-md"
+							>
 								I’m Amy, and I’d love to work on your next
 								project
 							</h1>
-							<p class="my-6 text-gray leading-[26px] md:text-[18px] md:leading-[28px]">
+							<p
+								class="my-6 text-gray leading-[26px] md:text-[18px] md:leading-[28px]"
+							>
 								I love working with others to create beautiful
 								design solutions. I’ve designed everything from
 								brand illustrations to complete mobile apps. I’m
 								also handy with a camera!
 							</p>
-							<button class="text-[1rem] bg-darkOrange hover:bg-lightOrange text-cream px-[27px] py-[14px] rounded-full w-[200px] mx-auto md:mx-0">Free Consultation</button>
+							<button
+								class="text-[1rem] bg-darkOrange hover:bg-lightOrange text-cream px-[27px] py-[14px] rounded-full w-[200px] mx-auto md:mx-0"
+							>
+								Free Consultation
+							</button>
 						</div>
 					</div>
 				</div>
@@ -167,33 +180,35 @@
 			<!-- END OF SECTION 3 -->
 
 			<section>
-				<h2>My Work</h2>
-				<div class="carosal_container">
-					<div class="image image-1">
+				<h2 class="text-center font-bold text-[24px] mb-8">My Work</h2>
+				<div class="carousel_container">
+					<div
+						class="carousel_slide flex overflow-x-auto scroll-smooth"
+					>
 						<img src="./assets/image-slide-1.jpg" alt="" />
-					</div>
-					<div class="image image-2">
+
 						<img src="./assets/image-slide-2.jpg" alt="" />
-					</div>
-					<div class="image image-3">
+
 						<img src="./assets/image-slide-3.jpg" alt="" />
-					</div>
-					<div class="image image-4">
+
 						<img src="./assets/image-slide-4.jpg" alt="" />
-					</div>
-					<div class="image image-5">
+
 						<img src="./assets/image-slide-5.jpg" alt="" />
-					</div>
-					<div class="image image-6">
+
 						<img src="./assets/image-slide-6.jpg" alt="" />
 					</div>
-				</div>
-				<div>
-					<img src="./assets/icon-arrow-left.svg" alt="arrow-left" />
-					<img
-						src="./assets/icon-arrow-right.svg"
-						alt="arrow-right"
-					/>
+					<div class="flex justify-center mt-8 mb-[100px]">
+						<img
+							class="left_arrow bg-black p-6 rounded-full mr-4"
+							src="/assets/icon-arrow-left.svg"
+							alt="arrow-left"
+						/>
+						<img
+							class="right_arrow bg-black p-6 rounded-full"
+							src="/assets/icon-arrow-right.svg"
+							alt="arrow-right"
+						/>
+					</div>
 				</div>
 			</section>
 			<!-- END OF SECTION 4 -->
@@ -224,5 +239,7 @@
 			</div>
 		</footer>
 		<!-- END OF FOOTER -->
+
+		<script src="/carousel.js"></script>
 	</body>
 </html>

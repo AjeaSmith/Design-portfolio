@@ -8,3 +8,6 @@
 	width: min(var(--max-width), 100% - var(--padding) * 2);
 	margin-inline: auto;
 }
+.carousel_slide img {
+	width: 100%;
+}
