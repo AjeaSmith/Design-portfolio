@@ -9,5 +9,6 @@
 	margin-inline: auto;
 }
 .carousel_slide img {
-	width: 100%;
+	width: 65%;
+	border-radius: 15px;
 }
